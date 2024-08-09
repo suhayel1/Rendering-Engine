@@ -1,0 +1,11 @@
+#version 330 core
+out vec4 FragColor;
+
+uniform bool lightSourceIsEnabled;
+
+void main()
+{
+    if (lightSourceIsEnabled) FragColor = vec4(1.0); // set all 4 vector values to 1.0 (white)
+    else FragColor = vec4(0.0); // (black)
+}
+
