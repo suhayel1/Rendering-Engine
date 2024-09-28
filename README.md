@@ -1,8 +1,17 @@
 # Rendering-Engine
 
-Work in progress.
+- 3D graphics using OpenGL and GLSL
+- Includes a basic GUI using ImGui
+- Movable 1st person camera
+- Uses Phong lighting model with 3 light types (directional light, point light, spotlight)
+- Can render cubes with different material types such as gold, silver, bronze
+- Capable of model loading
+
+Still a work in progress...
 
 References:
 
 https://learnopengl.com/
 Author: Joey de Vries
+
+Video demonstration: *Link here*
